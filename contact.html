@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zenn's Portofolio</title>
+    <title>Contact Zenn</title>
     <link rel="icon" type="assets/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="portofolio.css">
+    <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
@@ -25,22 +25,18 @@
         <img src="assets/PotoProfil.jpg" alt="Foto Profil" class="profile-photo">
     </header>
 
-    <h2>Sertifikat Saya</h2>
-    <div class="sertifikat">
-        <img src="assets\Sertif K3.png" alt="Sertifikat 1" width="200">
-        <div class="deskripsi">
-            <h3>Sertifikat K3</h3>
-            <p>Sertifikat ini saya peroleh setelah menyelesaikan pelatihan K3 pada bulan Agustus 2024 .</p>
-        </div>
-    </div>
-
-    <div class="sertifikat">
-        <img src="assets\Sertif Dicoding.png" alt="Sertifikat 2" width="200">
-        <div class="deskripsi">
-            <h3>Sertifikat Belajar Dasar Pemograman Web</h3>
-            <p>Saya mendapatkan sertifikat ini setelah menyelesaikan kursus Dicoding dasar pada bulan Oktober 2024.</p>
-        </div>
-    </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
     <footer>
         <p>&copy; Rafsza</p>
